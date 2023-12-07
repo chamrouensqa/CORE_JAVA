@@ -15,5 +15,18 @@ public class switch_case {
                 System.out.println("day 4");
                 break;
         }
+
+        //Using default
+        int which_month = 12;
+        switch (which_month){
+            case 1:
+                System.out.println("January");
+                break;
+            case 12:
+                System.out.println("December");
+                break;
+            default:
+                System.out.println("Month not found....");
+        }
     }
 }
